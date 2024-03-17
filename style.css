@@ -7,23 +7,9 @@ body {
     /* main UI color */
     --plyr-color-main: darkgray;
     /* audio controls background */
-    --plyr-audio-controls-background: black;
+    --plyr-video-controls-background: black;
     /* audio controls color */
-    --plyr-audio-control-color: white;
-
-    --plyr-audio-control-color-hover:  black;
-
-    --plyr-audio-progress-buffered-background:  black;
-
-    --plyr-audio-range-track-background: white;
-    
-    --plyr-font-family: sans-serif;
-    --plyr-font-size-time: 16px;
-
-    --plyr-tooltip-background: white;
-    --plyr-tooltip-color: black; 
-
-    --plyr-control-icon-size: 16px;
+    --plyr-video-control-color: white;
 }
 
 /* Layout */

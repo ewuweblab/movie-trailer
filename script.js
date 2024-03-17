@@ -2,4 +2,4 @@
 console.log('JS Connected');
 
 // Initialize Plyr
-const player = new Plyr('audio', {});
+const player = new Plyr('#player');
