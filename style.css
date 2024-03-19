@@ -1,7 +1,3 @@
-body {
-    background: gray;
-}
-
 /* CSS Variables */
 :root {
     /* main UI color */
@@ -10,6 +6,10 @@ body {
     --plyr-video-controls-background: black;
     /* audio controls color */
     --plyr-video-control-color: white;
+}
+
+body {
+    background: gray;
 }
 
 /* Layout */
@@ -27,6 +27,7 @@ main img {
     display: block;
 }
 
+/* Primary Content */
 article {
     /* flow content horizontally */
     display: flex;
@@ -34,14 +35,25 @@ article {
     justify-content: center;
 }
 
+article section,
+article aside {
+    /* flex'd children same side  */
+    flex: 1;
+}
+
+/* Aside */
+article aside a {
+    display: block;
+}
+
+/* Footer */
 footer {
     text-align: center;
 }
 
 /* Media Queries */
-@media (max-width: 600px) {
+@media (max-width: 40em) {
     main article {
         flex-direction: column;
-        align-items: center;
     }
 }
